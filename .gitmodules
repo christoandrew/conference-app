@@ -9,6 +9,3 @@
 [submodule "conference_app_attendees_api"]
 	path = conference_app_attendees_api
 	url = https://github.com/christoandrew/conference-app-attendees-api
-[submodule "conference-app-attendees-api"]
-	path = conference-app-attendees-api
-	url = https://github.com/christoandrew/conference-app-attendees-api
