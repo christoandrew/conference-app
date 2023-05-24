@@ -1,0 +1,14 @@
+[submodule "conference_app_ui"]
+	path = conference_app_ui
+	url = https://github.com/christoandrew/conference-app-ui
+
+[submodule "conference_app_api"]
+	path = conference_app_ui
+	url = https://github.com/christoandrew/conference-app-api
+
+[submodule "conference_app_attendees_api"]
+	path = conference_app_attendees_api
+	url = https://github.com/christoandrew/conference-app-attendees-api
+[submodule "conference-app-attendees-api"]
+	path = conference-app-attendees-api
+	url = https://github.com/christoandrew/conference-app-attendees-api

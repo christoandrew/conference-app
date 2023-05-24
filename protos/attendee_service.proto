@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package attendees;
+
+service Attendees {
+  rpc GetAttendee(AttendeeRequest) returns (AttendeeResponse) { }
+  rpc GetConferenceAttendees(AttendeesRequest) returns (stream Attendee){}
+}
+
+message AttendeeRequest {
+  uint64 id = 1;
+}
+
+message AttendeesRequest {
+  uint64 conference_id = 1;
+}
+
+message AttendeeResponse {
+  uint64 id = 1;
+  string name = 2;
+  string email = 3;
+  uint64 age = 4;
+}
+
+message Attendee {
+  uint64 id = 1;
+  string name = 2;
+  string email = 3;
+  uint64 age = 4;
+}
